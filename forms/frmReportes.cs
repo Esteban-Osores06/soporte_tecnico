@@ -1,10 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Text;
+using System.Windows.Forms;
 
 namespace soporte_tecnico.forms
 {
-    internal class frmReportes
+    public partial class frmReportes : Form
     {
+        public frmReportes()
+        {
+            InitializeComponent();
+        }
     }
 }
