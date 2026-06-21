@@ -51,3 +51,12 @@ C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.sou
 C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.dll
 C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\refint\soporte_tecnico.dll
 C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.pdb
+C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.forms.frmReportes.resources
+C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.forms.frmSeguimiento.resources
+C:\Soporte Tecnico\soporte_tecnico\bin\Debug\net10.0-windows\soporte_tecnico.exe
+C:\Soporte Tecnico\soporte_tecnico\bin\Debug\net10.0-windows\soporte_tecnico.deps.json
+C:\Soporte Tecnico\soporte_tecnico\bin\Debug\net10.0-windows\soporte_tecnico.runtimeconfig.json
+C:\Soporte Tecnico\soporte_tecnico\bin\Debug\net10.0-windows\soporte_tecnico.dll
+C:\Soporte Tecnico\soporte_tecnico\bin\Debug\net10.0-windows\soporte_tecnico.pdb
+C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\soporte_tecnico.genruntimeconfig.cache
+C:\Soporte Tecnico\soporte_tecnico\obj\Debug\net10.0-windows\ref\soporte_tecnico.dll
