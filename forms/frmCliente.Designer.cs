@@ -44,9 +44,9 @@ namespace soporte_tecnico.forms
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(25, 83);
+            label1.Location = new Point(22, 62);
             label1.Name = "label1";
-            label1.Size = new Size(67, 20);
+            label1.Size = new Size(54, 15);
             label1.TabIndex = 0;
             label1.Text = "Nombre:";
             label1.Click += label1_Click;
@@ -54,9 +54,9 @@ namespace soporte_tecnico.forms
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(25, 156);
+            label2.Location = new Point(22, 117);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(56, 15);
             label2.TabIndex = 1;
             label2.Text = "Telefono:";
             label2.Click += label2_Click;
@@ -64,80 +64,99 @@ namespace soporte_tecnico.forms
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(25, 230);
+            label3.Location = new Point(22, 172);
             label3.Name = "label3";
-            label3.Size = new Size(49, 20);
+            label3.Size = new Size(39, 15);
             label3.TabIndex = 2;
             label3.Text = "Email:";
             label3.Click += label3_Click;
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(25, 106);
+            txtNombre.Location = new Point(22, 80);
+            txtNombre.Margin = new Padding(3, 2, 3, 2);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(156, 27);
+            txtNombre.Size = new Size(159, 23);
             txtNombre.TabIndex = 3;
             // 
             // txtTelefono
             // 
-            txtTelefono.Location = new Point(25, 179);
+            txtTelefono.Location = new Point(22, 134);
+            txtTelefono.Margin = new Padding(3, 2, 3, 2);
             txtTelefono.Name = "txtTelefono";
-            txtTelefono.Size = new Size(156, 27);
+            txtTelefono.Size = new Size(159, 23);
             txtTelefono.TabIndex = 4;
             txtTelefono.TextChanged += txtTelefono_TextChanged;
             // 
             // txtEmail
             // 
-            txtEmail.Location = new Point(25, 253);
+            txtEmail.Location = new Point(22, 190);
+            txtEmail.Margin = new Padding(3, 2, 3, 2);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(156, 27);
+            txtEmail.Size = new Size(159, 23);
             txtEmail.TabIndex = 5;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(257, 34);
+            dataGridView1.Location = new Point(225, 26);
+            dataGridView1.Margin = new Padding(3, 2, 3, 2);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(506, 320);
+            dataGridView1.Size = new Size(443, 240);
             dataGridView1.TabIndex = 6;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // button1
             // 
-            button1.Location = new Point(279, 390);
+            button1.Location = new Point(203, 305);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(82, 22);
             button1.TabIndex = 7;
             button1.Text = "Agregar";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
+            button1.BackColor = Color.LightBlue;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.Cursor = Cursors.Hand;
             button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(447, 390);
+            button2.Location = new Point(311, 305);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(82, 22);
             button2.TabIndex = 8;
             button2.Text = "Modificar";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
+            button2.BackColor = Color.LightBlue;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.Cursor = Cursors.Hand;
             button2.Click += button2_Click;
             // 
             // button3
             // 
-            button3.Location = new Point(620, 390);
+            button3.Location = new Point(420, 305);
+            button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(82, 22);
             button3.TabIndex = 9;
             button3.Text = "Eliminar";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
+            button3.BackColor = Color.LightBlue;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.Cursor = Cursors.Hand;
             button3.Click += button3_Click;
             // 
             // frmCliente
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(700, 338);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -148,7 +167,9 @@ namespace soporte_tecnico.forms
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmCliente";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "frmCliente";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

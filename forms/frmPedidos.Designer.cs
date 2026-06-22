@@ -126,7 +126,11 @@
             btnCambiarEstado.Size = new Size(198, 23);
             btnCambiarEstado.TabIndex = 9;
             btnCambiarEstado.Text = "Cambiar Estado";
-            btnCambiarEstado.UseVisualStyleBackColor = true;
+            btnCambiarEstado.UseVisualStyleBackColor = false;
+            btnCambiarEstado.BackColor = Color.LightBlue;
+            btnCambiarEstado.FlatStyle = FlatStyle.Flat;
+            btnCambiarEstado.FlatAppearance.BorderSize = 0;
+            btnCambiarEstado.Cursor = Cursors.Hand;
             btnCambiarEstado.Click += btnCambiarEstado_Click;
             // 
             // btnCrearPedido
@@ -136,7 +140,11 @@
             btnCrearPedido.Size = new Size(198, 23);
             btnCrearPedido.TabIndex = 10;
             btnCrearPedido.Text = "Crear Pedido";
-            btnCrearPedido.UseVisualStyleBackColor = true;
+            btnCrearPedido.UseVisualStyleBackColor = false;
+            btnCrearPedido.BackColor = Color.LightBlue;
+            btnCrearPedido.FlatStyle = FlatStyle.Flat;
+            btnCrearPedido.FlatAppearance.BorderSize = 0;
+            btnCrearPedido.Cursor = Cursors.Hand;
             btnCrearPedido.Click += btnCrearPedido_Click;
             // 
             // frmPedidos
@@ -157,6 +165,7 @@
             Controls.Add(cmbClientes);
             Name = "frmPedidos";
             Text = "frmPedidos";
+            StartPosition = FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)dgvPedidos).EndInit();
             ResumeLayout(false);
             PerformLayout();

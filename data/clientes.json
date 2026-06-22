@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Acme Soluciones",
+    "Telefono": "+541112223333",
+    "Email": "contacto@acmesoluciones.com"
+  },
+  {
+    "Id": 2,
+    "Nombre": "InnovaTech S.A.",
+    "Telefono": "+541116667777",
+    "Email": "ventas@innovatech.com"
+  },
+  {
+    "Id": 3,
+    "Nombre": "Soluciones Lambda",
+    "Telefono": "+541118889999",
+    "Email": "soporte@solucioneslambda.com"
+  },
+  {
+    "Id": 4,
+    "Nombre": "Nexus Servicios S.R.L.",
+    "Telefono": "+541113335555",
+    "Email": "info@nexusservicios.com"
+  },
+  {
+    "Id": 5,
+    "Nombre": "Vertex Systems",
+    "Telefono": "+541117775555",
+    "Email": "admin@vertexsystems.com"
+  }
+]

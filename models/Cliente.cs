@@ -10,6 +10,7 @@ namespace soporte_tecnico.models
         public string Nombre { get; set; }
         public string Telefono { get; set; }
         public string Email { get; set; }
+        public Cliente() { }
 
         public Cliente(int id, string nombre, string telefono, string email)
         {

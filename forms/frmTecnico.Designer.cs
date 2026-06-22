@@ -57,64 +57,76 @@ namespace soporte_tecnico.forms
             // 
             txtNombre.Location = new Point(12, 65);
             txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(194, 39);
+            txtNombre.Size = new Size(194, 23);
             txtNombre.TabIndex = 0;
             // 
             // txtEspecialidad
             // 
             txtEspecialidad.Location = new Point(12, 117);
             txtEspecialidad.Name = "txtEspecialidad";
-            txtEspecialidad.Size = new Size(194, 39);
+            txtEspecialidad.Size = new Size(194, 23);
             txtEspecialidad.TabIndex = 1;
             // 
             // txtEmail
             // 
             txtEmail.Location = new Point(12, 172);
             txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(194, 39);
+            txtEmail.Size = new Size(194, 23);
             txtEmail.TabIndex = 2;
             // 
             // btnAgregar
             // 
-            btnAgregar.Location = new Point(207, 338);
+            btnAgregar.Location = new Point(223, 303);
             btnAgregar.Name = "btnAgregar";
             btnAgregar.Size = new Size(75, 23);
             btnAgregar.TabIndex = 3;
             btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.UseVisualStyleBackColor = false;
+            btnAgregar.BackColor = Color.LightBlue;
+            btnAgregar.FlatStyle = FlatStyle.Flat;
+            btnAgregar.FlatAppearance.BorderSize = 0;
+            btnAgregar.Cursor = Cursors.Hand;
             btnAgregar.Click += btnAgregar_Click;
             // 
             // btnModificar
             // 
-            btnModificar.Location = new Point(301, 338);
+            btnModificar.Location = new Point(321, 303);
             btnModificar.Name = "btnModificar";
             btnModificar.Size = new Size(75, 23);
             btnModificar.TabIndex = 4;
             btnModificar.Text = "Modificar";
-            btnModificar.UseVisualStyleBackColor = true;
+            btnModificar.UseVisualStyleBackColor = false;
+            btnModificar.BackColor = Color.LightBlue;
+            btnModificar.FlatStyle = FlatStyle.Flat;
+            btnModificar.FlatAppearance.BorderSize = 0;
+            btnModificar.Cursor = Cursors.Hand;
             btnModificar.Click += btnModificar_Click;
             // 
             // btnEliminar
             // 
-            btnEliminar.Location = new Point(398, 338);
+            btnEliminar.Location = new Point(421, 303);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(75, 23);
             btnEliminar.TabIndex = 5;
             btnEliminar.Text = "Eliminar";
-            btnEliminar.UseVisualStyleBackColor = true;
+            btnEliminar.UseVisualStyleBackColor = false;
+            btnEliminar.BackColor = Color.LightBlue;
+            btnEliminar.FlatStyle = FlatStyle.Flat;
+            btnEliminar.FlatAppearance.BorderSize = 0;
+            btnEliminar.Cursor = Cursors.Hand;
             btnEliminar.Click += btnEliminar_Click;
             // 
             // dgvTecnicos
             // 
             dgvTecnicos.AllowUserToAddRows = false;
             dgvTecnicos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTecnicos.Location = new Point(223, 12);
+            dgvTecnicos.Location = new Point(237, 12);
             dgvTecnicos.MultiSelect = false;
             dgvTecnicos.Name = "dgvTecnicos";
             dgvTecnicos.ReadOnly = true;
             dgvTecnicos.RowHeadersWidth = 51;
             dgvTecnicos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvTecnicos.Size = new Size(443, 295);
+            dgvTecnicos.Size = new Size(451, 281);
             dgvTecnicos.TabIndex = 6;
             dgvTecnicos.SelectionChanged += dgvTecnicos_SelectionChanged;
             // 
@@ -123,7 +135,7 @@ namespace soporte_tecnico.forms
             label1.AutoSize = true;
             label1.Location = new Point(12, 47);
             label1.Name = "label1";
-            label1.Size = new Size(107, 32);
+            label1.Size = new Size(54, 15);
             label1.TabIndex = 7;
             label1.Text = "Nombre:";
             // 
@@ -132,7 +144,7 @@ namespace soporte_tecnico.forms
             label2.AutoSize = true;
             label2.Location = new Point(12, 99);
             label2.Name = "label2";
-            label2.Size = new Size(149, 32);
+            label2.Size = new Size(75, 15);
             label2.TabIndex = 8;
             label2.Text = "Especialidad:";
             // 
@@ -141,13 +153,13 @@ namespace soporte_tecnico.forms
             label3.AutoSize = true;
             label3.Location = new Point(12, 154);
             label3.Name = "label3";
-            label3.Size = new Size(76, 32);
+            label3.Size = new Size(39, 15);
             label3.TabIndex = 9;
             label3.Text = "Email:";
             // 
             // frmTecnico
             // 
-            ClientSize = new Size(812, 466);
+            ClientSize = new Size(700, 338);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -159,6 +171,7 @@ namespace soporte_tecnico.forms
             Controls.Add(txtEspecialidad);
             Controls.Add(txtNombre);
             Name = "frmTecnico";
+            StartPosition = FormStartPosition.CenterScreen;
             Load += frmTecnicos_Load;
             ((ISupportInitialize)dgvTecnicos).EndInit();
             ResumeLayout(false);

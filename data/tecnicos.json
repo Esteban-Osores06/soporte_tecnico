@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Nombre": "Juan Pérez",
+    "Especialidad": "Redes",
+    "Email": "juan.perez@ejemplo.com"
+  },
+  {
+    "Id": 2,
+    "Nombre": "María López",
+    "Especialidad": "Soporte de software",
+    "Email": "maria.lopez@ejemplo.com"
+  },
+  {
+    "Id": 3,
+    "Nombre": "Carlos García",
+    "Especialidad": "Hardware",
+    "Email": "carlos.garcia@ejemplo.com"
+  },
+  {
+    "Id": 4,
+    "Nombre": "Lucía Fernández",
+    "Especialidad": "Seguridad informática",
+    "Email": "lucia.fernandez@ejemplo.com"
+  },
+  {
+    "Id": 5,
+    "Nombre": "Miguel Sánchez",
+    "Especialidad": "Bases de datos",
+    "Email": "miguel.sanchez@ejemplo.com"
+  }
+]
